@@ -51,6 +51,7 @@ public class StudentApp
   Student []t1=new Student[size];
   for(int i =0 ;i<size;i++)
   {
+   t1[i]= new Student();
    t1[i].getDetails();
    t1[i].Average();
   }
